@@ -1,1 +1,44 @@
+body {   
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: grey;  
+}  
+button {   
+        background-color: #004080;  
+        width: 100px;  
+        border-radius: 10px;
+        color: white;   
+        padding: 15px;   
+        margin: 15px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form { 
+        border: 0px solid #ffffff; 
+          text-align: right;
+        
+    }   
+ input[type=text], input[type=password] , input[type=date],input[type=radio]{   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 1px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
 
+     
+ .container {
+          
+        width: 320px;
+        heigth: 500;
+        top: 20%;
+        left:35%;
+        position: absolute;
+        border-radius: 10px;
+        padding: 50px 20px; 
+        margin: auto;
+        background-color: white;  
+    }   
